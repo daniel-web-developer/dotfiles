@@ -1,8 +1,8 @@
 # My dotfiles
 
 ## Table of contents
-- [vim]
-- [nvim]
+- (vim)
+- (nvim)
 
 ## vim
 
