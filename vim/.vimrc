@@ -61,15 +61,11 @@ call plug#begin('~/.vim/plugged')
     Plug 'preservim/nerdtree'
     Plug 'dense-analysis/ale'
     Plug 'sheerun/vim-polyglot'
-    Plug 'gilgigilgil/anderson.vim'
     Plug 'chun-yang/auto-pairs'
     Plug 'alvan/vim-closetag'
 
 call plug#end()
 " }}}
-
-" Colorscheme ought to come after plugin is declared
-colorscheme anderson
 
 " MAPPINGS --------------------------------------------------------------- {{{
 
