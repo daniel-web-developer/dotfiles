@@ -1,9 +1,9 @@
 # My dotfiles
 
 ## Table of contents
-- [Vim](#Vim)
 - [Neovim](#Neovim)
 - [i3](#i3)
+- [Vim](#Vim)
 
 ## Neovim
 
