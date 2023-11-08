@@ -14,6 +14,7 @@ I've followed [Primeagean's tutorial](https://www.youtube.com/watch?v=w7i4amO_za
 
 I've changed the `mod` key to the "windows" (or super) key and copied one thing or another from The Primagean's [config file](https://github.com/ThePrimeagen/.dotfiles/blob/master/i3/.config/i3/config).
 The i3status.conf is meant to configure the status bar. In my computer, it's located under /etc/i3status.conf.
+To take a screenshot, you're gonna need to have [main](https://archlinux.org/packages/extra/x86_64/maim/) and [xclip](https://archlinux.org/packages/extra/x86_64/xclip/) installed. Pressing `Printscreen` will give you the option to crop the screenshot and will automatically copy it to clipboard.
 
 ## kitty
 
