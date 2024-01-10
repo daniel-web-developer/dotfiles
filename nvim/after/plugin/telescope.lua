@@ -1,8 +1,39 @@
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
-vim.keymap.set('n', '<C-p>', builtin.git_files, {})
+
+-- I used ChatGPT to help me generate most of these functions (all but the one Primeagen made himself).
+
+vim.keymap.set('n', '<leader>pf', function()
+    builtin.find_files({
+        hidden = true,
+        follow = true,
+        no_ignore = true,
+        cwd = vim.fn.expand('%:p:h')
+    })
+end, {})
+
+vim.keymap.set('n', '<C-p>', function()
+    builtin.git_files({
+        hidden = true,
+        follow = true,
+        no_ignore = true,
+        cwd = vim.fn.expand('%:p:h')
+    })
+end, {})
+
 vim.keymap.set('n', '<leader>ps', function()
-	builtin.grep_string({ search = vim.fn.input("Grep > ") })
-end)
-vim.keymap.set('n', '<leader>vh', builtin.help_tags, {})
+	builtin.grep_string({
+        search = vim.fn.input("Grep > "),
+        hidden = true,
+        no_ignore = true,
+        cwd = vim.fn.expand('%:p:h')
+    })
+end, {})
+
+vim.keymap.set('n', '<leader>vh', function()
+    builtin.help_tags({
+        hidden = true,
+        no_ignore = true,
+        cwd = vim.fn.expand('%:p:h')
+    })
+end, {})
 

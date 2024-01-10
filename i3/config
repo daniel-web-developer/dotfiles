@@ -198,3 +198,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
+exec --no-startup-id /usr/bin/gnome-settings-daemon
+
