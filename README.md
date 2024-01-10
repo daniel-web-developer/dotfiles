@@ -9,6 +9,7 @@
 ## Neovim
 
 I've followed [Primeagean's tutorial](https://www.youtube.com/watch?v=w7i4amO_zaE) to set up my Neovim files.
+I also followed [this](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/) tutorial to set up Rust support.
 
 ## i3
 
