@@ -10,3 +10,8 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+-- Enable true color support in Neovim for Kitty
+if vim.fn.exists('$KITTY') == 1 then
+    vim.o.termguicolors = true
+end
+

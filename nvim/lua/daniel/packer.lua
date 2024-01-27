@@ -13,16 +13,7 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use({
-        'navarasu/onedark.nvim',
-        as = 'onedark',
-        config = function()
-            require('onedark').setup {
-                style = 'deep'
-            }
-            require('onedark').load()
-        end
-    })
+    use {'morhetz/gruvbox', config = function() vim.cmd.colorscheme("gruvbox") end }
 
     use({"nvim-treesitter/nvim-treesitter", run = ":TSUpdateSync"})
     use("windwp/nvim-ts-autotag")
