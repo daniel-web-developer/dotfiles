@@ -64,6 +64,14 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-buffer'                            
     use 'hrsh7th/vim-vsnip'
 
+    -- For LaTeX
+    use {
+        'lervag/vimtex',
+        config = function()
+            vim.g.vimtex_view_general_viewer = 'firefox'
+        end
+    }
+
 end)
 
 
