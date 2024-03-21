@@ -201,4 +201,5 @@ bar {
 
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 exec --no-startup-id /usr/bin/gnome-settings-daemon
+exec --no-startup-id redshift
 

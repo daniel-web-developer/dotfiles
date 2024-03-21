@@ -28,3 +28,9 @@ I've changed the colour theme to onedark.
 I'm now exclusively using Neovim, so this .vimrc file will be "outdated".
 I've followed this pretty straight forward [tutorial](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/) to set Vim up
 
+## Redshift
+
+Redshift adjusts the colour temperature of my screen. I'm using this to maybe sleep better.
+https://wiki.archlinux.org/title/Redshift
+https://github.com/jonls/redshift/releases
+
